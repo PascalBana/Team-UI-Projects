@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.content-block-main {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 1100px;
+    height: 800px;
+    background-color: #ffffff;
+}
+.content-block-left {
+    flex: 1;
+}
+.content-block-right {
+    flex: 1;
+}
