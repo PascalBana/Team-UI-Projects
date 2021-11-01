@@ -3,7 +3,8 @@ html, body {
 }
 
 body {
-    background-color: aquamarine;
+    background-image: url(geometric-grey-background_1055-3147.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,13 +14,33 @@ body {
 .content-block-main {
     display: flex;
     flex-flow: row nowrap;
-    width: 1100px;
-    height: 800px;
+    width: 1500px;
+    height: 500px;
     background-color: #ffffff;
 }
 .content-block-left {
     flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 .content-block-right {
     flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
+.image-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(LEFT\ IMAGE\ FOR\ SIGN\ UP\ PAGE.png);
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    margin: 15px 30px 15px 0px;
+    }
